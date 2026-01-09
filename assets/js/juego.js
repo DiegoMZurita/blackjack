@@ -30,7 +30,7 @@ const crearDeck = () =>{
     return deck;
 };
 
-//crearDeck();
+crearDeck();
 
 //Esta función me permite tomar una carta
 const pedirCarta =() =>{
@@ -44,6 +44,14 @@ const pedirCarta =() =>{
     console.log( deck )
     console.log( carta ); 
     return carta;
-}
+};
 
 //pedirCarta();
+const valorCarta = ( carta ) => {
+    const valor = carta.substring(0, carta.length - 1);
+    return ( isNaN (valor)) ?
+            (valor === 'A') ? 11 : 10
+            :valor * 1 ;
+};
+
+valorCarta('2D');
