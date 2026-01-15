@@ -1,5 +1,4 @@
 🃏 Blackjack Game
-📌 About
 
 Este proyecto es un juego de Blackjack desarrollado en JavaScript puro, enfocado en la aplicación práctica de conceptos fundamentales del lenguaje y buenas prácticas de desarrollo frontend. El juego simula una partida clásica entre un jugador y la computadora, incorporando lógica de negocio, manipulación del DOM y control de eventos. La arquitectura del código utiliza el patrón módulo (IIFE) para encapsular la lógica del juego y evitar la exposición de variables y funciones en el ámbito global.
 
