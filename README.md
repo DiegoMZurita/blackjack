@@ -8,15 +8,15 @@ El juego permite al usuario pedir cartas, detener su turno y competir contra la 
 
 🛠️ Tecnologías utilizadas
 
-JavaScript (ES6+)
+-JavaScript (ES6+)
 
-HTML5
+-HTML5
 
-CSS3
+-CSS3
 
-Patrón Módulo (IIFE)
+-Patrón Módulo (IIFE)
 
-Manipulación del DOM
+-Manipulación del DOM
 
 🎯 Objetivo del proyecto
 
